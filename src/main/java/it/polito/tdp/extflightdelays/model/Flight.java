@@ -154,8 +154,7 @@ public class Flight {
 
 	@Override
 	public String toString() {
-		return "Flight [id=" + id + ", flightNumber=" + flightNumber + ", originAirportId=" + originAirportId
-				+ ", destinationAirportId=" + destinationAirportId + "]";
+		return originAirportId + destinationAirportId + "\n";
 	}
 
 }
